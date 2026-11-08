@@ -1,0 +1,22 @@
+﻿Column,Type,Meaning
+Student_ID,Identifier,Mã định danh duy nhất của sinh viên
+Age,Numerical (Discrete),Độ tuổi sinh viên (18 - 28 tuổi)
+Gender,Categorical (Nominal),"Giới tính (Female, Male, Non-Binary)"
+Academic_Level,Categorical (Ordinal),Năm học đại học / sau đại học
+Major_Category,Categorical (Nominal),"Khối ngành học (STEM, Business, Humanities,...)"
+Daily_Screen_Time_Hours,Numerical (Continuous),Tổng thời gian dùng màn hình số hàng ngày (giờ)
+Study_Hours_Per_Day,Numerical (Continuous),Thời gian tự học trung bình mỗi ngày (giờ)
+Social_Media_Hours,Numerical (Continuous),Thời gian dùng mạng xã hội (giờ/ngày)
+Gaming_Hours,Numerical (Continuous),Thời gian chơi game (giờ/ngày)
+Phone_Unlocks_Per_Day,Numerical (Discrete),Số lần mở khóa điện thoại trong ngày
+Notification_Count_Daily,Numerical (Discrete),Số lượng thông báo điện thoại nhận mỗi ngày
+Primary_Distraction_App,Categorical (Nominal),"Ứng dụng gây xao nhãng chính (TikTok, Instagram,...)"
+Digital_Wellbeing_Feature_Used,Categorical (Binary),Có sử dụng tính năng giới hạn thời gian (Screen Time) hay không
+Multitasking_Frequency,Categorical (Ordinal),"Tần suất làm nhiều việc số cùng lúc (Low, Medium, High)"
+Productivity_Tools_Used,Categorical (Nominal),"Công cụ quản lý học tập sử dụng (Notion, Trello,...)"
+Sleep_Duration_Hours,Numerical (Continuous),Thời lượng giấc ngủ mỗi đêm (giờ)
+Physical_Activity_Minutes,Numerical (Continuous),Thời gian hoạt động thể chất mỗi ngày (phút)
+Stress_Level,Categorical (Ordinal),"Mức độ căng thẳng tự đánh giá (Low, Medium, High)"
+Attendance_Rate_Percentage,Numerical (Continuous),Tỷ lệ điểm danh tham gia lớp học (%)
+Current_GPA,Numerical (Continuous),Điểm trung bình tích lũy hiện tại (thang 4.0)
+Productivity_Score,Numerical (Continuous Target),Điểm hiệu suất học tập tổng hợp (10 - 100)

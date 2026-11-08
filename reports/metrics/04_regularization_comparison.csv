@@ -1,0 +1,8 @@
+﻿Thuật Toán Cơ Sở,Trước Regularization (Train Acc),Trước Regularization (Val Acc),Trước Gap (Overfit Độ Lệch),Sau Regularization (Train Acc),Sau Regularization (Val Acc),Sau Gap (Overfit Độ Lệch),Giảm Overfit Gap
+KNN,1.0,0.5657,0.4343,1.0,0.6671,0.3329,0.1014
+Decision Tree,1.0,0.6757,0.3243,0.7186,0.6843,0.0343,0.29
+Gaussian Naive Bayes,0.7375,0.7729,-0.0354,0.7375,0.7729,-0.0354,0.0
+Logistic Regression,0.8129,0.8071,0.0057,0.8139,0.8086,0.0054,0.0004
+MLP,1.0,0.7614,0.2386,0.8389,0.8143,0.0246,0.2139
+Linear SVM,0.815,0.8086,0.0064,0.8136,0.8071,0.0064,-0.0
+RBF SVM,1.0,0.7614,0.2386,0.9086,0.8157,0.0929,0.1457

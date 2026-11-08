@@ -1,0 +1,11 @@
+﻿Tiêu Chí Đánh Giá,PCA,TruncatedSVD
+Số thành phần đạt >= 50% phương sai,10,10
+Số thành phần đạt >= 75% phương sai,18,18
+Số thành phần đạt >= 85% phương sai,21,21
+Số thành phần đạt >= 90% phương sai,23,23
+Số thành phần đạt >= 95% phương sai,26,26
+Tổng phương sai 2 chiều đầu tiên (PC1+PC2),18.65%,18.65%
+Tổng phương sai 5 chiều đầu tiên,32.57%,32.57%
+Xử lý dữ liệu định tâm (Centering),Bắt buộc trừ kỳ vọng (Zero-mean centering),Không bắt buộc định tâm (Phù hợp cả ma trận thưa)
+Bản chất toán học,Phân rã trị riêng ma trận hiệp phương sai $\Sigma$,Phân rã giá trị suy biến trực tiếp $X = U\Sigma V^T$
+Ứng dụng tối ưu,Dữ liệu dạng bảng liên tục đã chuẩn hóa,"Dữ liệu ma trận thưa (Sparse text, TF-IDF, Graph)"

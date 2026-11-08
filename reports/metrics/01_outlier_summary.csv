@@ -1,0 +1,12 @@
+﻿Feature,Q1,Q3,IQR,Lower_Bound_IQR,Upper_Bound_IQR,Outliers_IQR_Count,Outliers_Zscore_Count
+Age,19.0,21.0,2.0,16.0,24.0,97,71
+Daily_Screen_Time_Hours,8.37,10.66,2.29,4.93,14.1,33,11
+Study_Hours_Per_Day,3.4,4.99,1.59,1.01,7.38,17,7
+Social_Media_Hours,1.89,3.66,1.77,-0.77,6.32,27,13
+Gaming_Hours,0.36,1.69,1.33,-1.64,3.68,164,50
+Phone_Unlocks_Per_Day,106.0,134.25,28.25,63.62,176.62,21,8
+Notification_Count_Daily,154.0,199.0,45.0,86.5,266.5,23,7
+Sleep_Duration_Hours,5.71,6.75,1.04,4.14,8.31,19,9
+Physical_Activity_Minutes,36.0,64.0,28.0,-6.0,106.0,155,72
+Attendance_Rate_Percentage,78.43,86.17,7.74,66.81,97.79,22,9
+Current_GPA,3.61,4.0,0.39,3.02,4.58,33,32

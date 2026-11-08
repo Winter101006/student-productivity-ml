@@ -1,0 +1,13 @@
+﻿Tỷ Lệ Chia,Không Gian Đầu Vào,Mô Hình Hồi Quy,MSE,RMSE,MAE,R2-Score
+4:1 (80:20),Dữ Liệu Đầy Đủ (35 Chiều),Ridge Regression,0.0,0.0013,0.0011,1.0
+4:1 (80:20),Dữ Liệu Đầy Đủ (35 Chiều),Random Forest Regressor,2.2984,1.516,1.2039,0.9026
+4:1 (80:20),Dữ Liệu Giảm Chiều 1/3 (11 Chiều - 55.0% Var),Ridge Regression,2.2134,1.4877,1.1656,0.9062
+4:1 (80:20),Dữ Liệu Giảm Chiều 1/3 (11 Chiều - 55.0% Var),Random Forest Regressor,2.8474,1.6874,1.3328,0.8793
+7:3 (70:30),Dữ Liệu Đầy Đủ (35 Chiều),Ridge Regression,0.0,0.0015,0.0012,1.0
+7:3 (70:30),Dữ Liệu Đầy Đủ (35 Chiều),Random Forest Regressor,2.201,1.4836,1.189,0.9085
+7:3 (70:30),Dữ Liệu Giảm Chiều 1/3 (11 Chiều - 55.0% Var),Ridge Regression,2.1457,1.4648,1.1515,0.9108
+7:3 (70:30),Dữ Liệu Giảm Chiều 1/3 (11 Chiều - 55.0% Var),Random Forest Regressor,2.842,1.6858,1.3309,0.8819
+6:4 (60:40),Dữ Liệu Đầy Đủ (35 Chiều),Ridge Regression,0.0,0.0018,0.0015,1.0
+6:4 (60:40),Dữ Liệu Đầy Đủ (35 Chiều),Random Forest Regressor,2.2803,1.5101,1.2111,0.9057
+6:4 (60:40),Dữ Liệu Giảm Chiều 1/3 (11 Chiều - 55.0% Var),Ridge Regression,2.2342,1.4947,1.1784,0.9076
+6:4 (60:40),Dữ Liệu Giảm Chiều 1/3 (11 Chiều - 55.0% Var),Random Forest Regressor,2.9871,1.7283,1.3703,0.8764

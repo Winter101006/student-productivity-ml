@@ -1,0 +1,14 @@
+{
+    "Total_Samples": 3500,
+    "Initial_Raw_Features": 21,
+    "Input_Features_Before_OHE": 20,
+    "Input_Features_After_OHE": 35,
+    "Scaled_Features_Count": 35,
+    "Target_Classes": [
+        "Low",
+        "Medium",
+        "High"
+    ],
+    "Low_Threshold": 85.2,
+    "High_Threshold": 94.95
+}
