@@ -26,23 +26,26 @@ st.markdown("""
     }
 
     .wb-header {
-        border-bottom: 1px solid #e2e8f0;
+        border-bottom: 1px solid #e0e7ff;
         padding-bottom: 16px;
         margin-bottom: 24px;
     }
     .wb-eyebrow {
         font-family: 'JetBrains Mono', monospace;
         font-size: 12px;
-        color: #64748b;
+        font-weight: 600;
+        color: #4f46e5;
         margin-bottom: 6px;
     }
     .wb-title {
         font-size: 26px;
-        font-weight: 600;
+        font-weight: 800;
         letter-spacing: -0.02em;
-        color: #0f172a;
+        background: linear-gradient(90deg, #2563eb, #4f46e5, #9333ea);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         margin: 0;
-        line-height: 1.2;
+        line-height: 1.25;
     }
     .wb-subtitle {
         font-size: 14px;
@@ -51,7 +54,7 @@ st.markdown("""
         line-height: 1.5;
     }
 
-    /* Symmetrical 4-Column KPI Grid */
+    /* Symmetrical 4-Column Gemini KPI Grid */
     .wb-kpi-grid {
         display: grid;
         grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -64,25 +67,26 @@ st.markdown("""
         }
     }
     .wb-kpi-card {
-        background: #ffffff;
-        border: 1px solid #e2e8f0;
-        border-radius: 12px;
-        padding: 16px 20px;
+        background: linear-gradient(135deg, #ffffff 0%, #f5f7ff 100%);
+        border: 1px solid #c7d2fe;
+        border-radius: 16px;
+        padding: 18px 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        min-height: 108px;
+        min-height: 112px;
+        box-shadow: 0 6px 20px -4px rgba(79, 70, 229, 0.08);
     }
     .wb-kpi-label {
         font-size: 12px;
-        color: #64748b;
-        font-weight: 500;
+        color: #4f46e5;
+        font-weight: 600;
     }
     .wb-kpi-value {
         font-family: 'JetBrains Mono', monospace;
         font-variant-numeric: tabular-nums;
         font-size: 22px;
-        font-weight: 600;
+        font-weight: 700;
         color: #0f172a;
         margin-top: 8px;
     }
@@ -95,8 +99,8 @@ st.markdown("""
 
     .wb-section-title {
         font-size: 16px;
-        font-weight: 600;
-        color: #0f172a;
+        font-weight: 700;
+        color: #1e1b4b;
         margin: 24px 0 12px 0;
     }
 
